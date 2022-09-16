@@ -1,10 +1,9 @@
 .DS_Store
-
 .flaskenv
 *.pyc
 *.pyo
-env/
-env*
+# env/
+# env*
 dist/
 build/
 *.egg
@@ -16,7 +15,7 @@ _mailinglist
 .idea/
 docs/_build/
 __pycache__
-.env_file
+# .env_file
 
 # Coverage reports
 htmlcov/
@@ -25,7 +24,7 @@ htmlcov/
 *,cover
 
 # Direnv
-.envrc
+# .envrc
 .direnv
 
 .github/**
